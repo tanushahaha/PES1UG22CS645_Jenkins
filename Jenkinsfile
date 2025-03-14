@@ -23,7 +23,7 @@ pipeline {
         stage('Deploy') {
             steps {
                 script {
-                    sh 'exit 1'
+                    echo "deploying project...."
                 }
             }
         }
